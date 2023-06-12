@@ -20,7 +20,7 @@
 
 - Create a working directory and move to it
 
-- Importing a remote repository
+- Importing a remote repository (Paste the token key in the popup)
   $ git clone <repo HTTPS address>
     ex) git clone https://github.com/yangjh0130/test.git
   $ git init
