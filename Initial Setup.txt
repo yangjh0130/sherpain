@@ -38,3 +38,8 @@
   $ git remote add origin <repo HTTPS address>
   $ git remote -v
   $ git push -u origin main
+    > $ git push
+  
+- Importing locally from remote repo
+  $ git pull origin main
+    > $ git pull
