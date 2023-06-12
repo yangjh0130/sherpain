@@ -1,0 +1,671 @@
+<NessusClientData_v2>
+	<Policy>
+		<policyName>test</policyName>
+		<policyOwner>Tenable Policy Distribution Service</policyOwner>
+		<visibility>private</visibility>
+		<policyComments>Nessus Policy exported from Tenable.sc</policyComments>
+		<Preferences>
+			<ServerPreferences>
+				<preference>
+					<name>policy_name</name>
+					<value>test</value>
+				</preference>
+				<preference>
+					<name>policy_shared</name>
+					<value>0</value>
+				</preference>
+				<preference>
+					<name>policy_description</name>
+					<value />
+				</preference>
+				<preference>
+					<name>sc_version</name>
+					<value>5.23.1</value>
+				</preference>
+				<preference>
+					<name>sc_policy_type</name>
+					<value>25</value>
+				</preference>
+				<preference>
+					<name>silent_dependencies</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>staggered_start_mins</name>
+					<value>0</value>
+				</preference>
+				<preference>
+					<name>reverse_lookup</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>verify_open_ports</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>optimize_test</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>cgi_path</name>
+					<value>/cgi-bin:/scripts</value>
+				</preference>
+				<preference>
+					<name>language</name>
+					<value>english</value>
+				</preference>
+				<preference>
+					<name>checks_read_timeout</name>
+					<value>5</value>
+				</preference>
+				<preference>
+					<name>non_simult_ports</name>
+					<value>139, 445, 3389</value>
+				</preference>
+				<preference>
+					<name>plugins_timeout</name>
+					<value>320</value>
+				</preference>
+				<preference>
+					<name>auto_enable_dependencies</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>use_mac_addr</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>save_knowledge_base</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_restore</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>only_test_hosts_whose_kb_we_dont_have</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>only_test_hosts_whose_kb_we_have</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_dont_replay_scanners</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_dont_replay_info_gathering</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_dont_replay_attacks</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_dont_replay_denials</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>kb_max_age</name>
+					<value>864000</value>
+				</preference>
+				<preference>
+					<name>plugin_upload</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>plugin_upload_suffixes</name>
+					<value>.nasl</value>
+				</preference>
+				<preference>
+					<name>save_session</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>save_empty_sessions</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>host_expansion</name>
+					<value>ip</value>
+				</preference>
+				<preference>
+					<name>detached_scan</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>continuous_scan</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>diff_scan</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>log_whole_attack</name>
+					<value>no</value>
+				</preference>
+				<preference>
+					<name>ntp_escape_crlf</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>ntp_opt_show_end</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>ntp_client_accepts_notes</name>
+					<value>yes</value>
+				</preference>
+				<preference>
+					<name>generateXCCDFResults</name>
+					<value>no</value>
+				</preference>
+			</ServerPreferences>
+			<PluginsPreferences>
+				<item>
+					<pluginName>Global variable settings</pluginName>
+					<pluginId>12288</pluginId>
+					<fullName>Global variable settings[checkbox]:Probe services on every port</fullName>
+					<preferenceName>Probe services on every port</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Antivirus Software Check</pluginName>
+					<pluginId>16193</pluginId>
+					<fullName>Antivirus Software Check[entry]:Delay (in days, between 0 and 7) :</fullName>
+					<preferenceName>Delay (in days, between 0 and 7) :</preferenceName>
+					<preferenceType>entry</preferenceType>
+					<preferenceValues>0</preferenceValues>
+					<selectedValue>0</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:disable_dns_resolution</fullName>
+					<preferenceName>disable_dns_resolution</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_file_scanning</fullName>
+					<preferenceName>enable_file_scanning</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_filescan_programdata</fullName>
+					<preferenceName>enable_filescan_programdata</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_filescan_programfiles</fullName>
+					<preferenceName>enable_filescan_programfiles</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_filescan_programfilesx86</fullName>
+					<preferenceName>enable_filescan_programfilesx86</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_filescan_systemroot</fullName>
+					<preferenceName>enable_filescan_systemroot</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_filescan_userprofiles</fullName>
+					<preferenceName>enable_filescan_userprofiles</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Nessus Launched Plugin List</pluginName>
+					<pluginId>112154</pluginId>
+					<fullName>Nessus Launched Plugin List[checkbox]:Enable Plugin List Report</fullName>
+					<preferenceName>Enable Plugin List Report</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>SMB Use Domain SID to Enumerate Users</pluginName>
+					<pluginId>10399</pluginId>
+					<fullName>SMB Use Domain SID to Enumerate Users[entry]:End UID :</fullName>
+					<preferenceName>End UID :</preferenceName>
+					<preferenceType>entry</preferenceType>
+					<preferenceValues>1200</preferenceValues>
+					<selectedValue>1200</selectedValue>
+				</item>
+				<item>
+					<pluginName>SMB Use Domain SID to Enumerate Users</pluginName>
+					<pluginId>10399</pluginId>
+					<fullName>SMB Use Domain SID to Enumerate Users[entry]:Start UID :</fullName>
+					<preferenceName>Start UID :</preferenceName>
+					<preferenceType>entry</preferenceType>
+					<preferenceValues>1000</preferenceValues>
+					<selectedValue>1000</selectedValue>
+				</item>
+				<item>
+					<pluginName>SMB Use Host SID to Enumerate Local Users</pluginName>
+					<pluginId>10860</pluginId>
+					<fullName>SMB Use Host SID to Enumerate Local Users[entry]:End UID :</fullName>
+					<preferenceName>End UID :</preferenceName>
+					<preferenceType>entry</preferenceType>
+					<preferenceValues>1200</preferenceValues>
+					<selectedValue>1200</selectedValue>
+				</item>
+				<item>
+					<pluginName>SMB Use Host SID to Enumerate Local Users</pluginName>
+					<pluginId>10860</pluginId>
+					<fullName>SMB Use Host SID to Enumerate Local Users[entry]:Start UID :</fullName>
+					<preferenceName>Start UID :</preferenceName>
+					<preferenceType>entry</preferenceType>
+					<preferenceValues>1000</preferenceValues>
+					<selectedValue>1000</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[file]:filescan_custom_dir</fullName>
+					<preferenceName>filescan_custom_dir</preferenceName>
+					<preferenceType>file</preferenceType>
+					<preferenceValues />
+					<selectedValue />
+				</item>
+				<item>
+					<pluginName>Hosts File Whitelisted Entries</pluginName>
+					<pluginId>73980</pluginId>
+					<fullName>Hosts File Whitelisted Entries[file]:Upload file with custom hosts entries :</fullName>
+					<preferenceName>Upload file with custom hosts entries :</preferenceName>
+					<preferenceType>file</preferenceType>
+					<preferenceValues />
+					<selectedValue />
+				</item>
+				<item>
+					<pluginName>Global variable settings</pluginName>
+					<pluginId>12288</pluginId>
+					<fullName>Global variable settings[radio]:Report paranoia</fullName>
+					<preferenceName>Report paranoia</preferenceName>
+					<preferenceType>radio</preferenceType>
+					<preferenceValues>Normal</preferenceValues>
+					<selectedValue>Normal</selectedValue>
+				</item>
+				<item>
+					<pluginName>Patch Report</pluginName>
+					<pluginId>66334</pluginId>
+					<fullName>Patch Report[checkbox]:Display the superseded patches in the report</fullName>
+					<preferenceName>Display the superseded patches in the report</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>yes</preferenceValues>
+					<selectedValue>yes</selectedValue>
+				</item>
+				<item>
+					<pluginName>Global variable settings</pluginName>
+					<pluginId>12288</pluginId>
+					<fullName>Global variable settings[radio]:Report verbosity</fullName>
+					<preferenceName>Report verbosity</preferenceName>
+					<preferenceType>radio</preferenceType>
+					<preferenceValues>Normal</preferenceValues>
+					<selectedValue>Normal</selectedValue>
+				</item>
+				<item>
+					<pluginName>SMB Scope</pluginName>
+					<pluginId>10917</pluginId>
+					<fullName>SMB Scope[checkbox]:Request information about the domain</fullName>
+					<preferenceName>Request information about the domain</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[checkbox]:enable_malware_scanning</fullName>
+					<preferenceName>enable_malware_scanning</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Global variable settings</pluginName>
+					<pluginId>12288</pluginId>
+					<fullName>Global variable settings[checkbox]:Thorough tests (slow)</fullName>
+					<preferenceName>Thorough tests (slow)</preferenceName>
+					<preferenceType>checkbox</preferenceType>
+					<preferenceValues>no</preferenceValues>
+					<selectedValue>no</selectedValue>
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[file]:Additional MD5 hashes (optional) :</fullName>
+					<preferenceName>Additional MD5 hashes (optional) :</preferenceName>
+					<preferenceType>file</preferenceType>
+					<preferenceValues />
+					<selectedValue />
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[file]:Known good MD5 hashes (optional) :</fullName>
+					<preferenceName>Known good MD5 hashes (optional) :</preferenceName>
+					<preferenceType>file</preferenceType>
+					<preferenceValues />
+					<selectedValue />
+				</item>
+				<item>
+					<pluginName>Malicious Process Detection</pluginName>
+					<pluginId>59275</pluginId>
+					<fullName>Malicious Process Detection[file]:Yara rules file :</fullName>
+					<preferenceName>Yara rules file :</preferenceName>
+					<preferenceType>file</preferenceType>
+					<preferenceValues />
+					<selectedValue />
+				</item>
+			</PluginsPreferences>
+		</Preferences>
+		<FamilySelection>
+			<FamilyItem>
+				<FamilyName>Red Hat Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>HP-UX Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Debian Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Solaris Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Fedora Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>CGI abuses</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Gentoo Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>SuSE Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>AIX Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Windows : Microsoft Bulletins</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Web Servers</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>SMTP problems</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>FreeBSD Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Ubuntu Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Slackware Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Mandrake Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Remote file access</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>CentOS Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>FTP</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Windows</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>MacOS X Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Denial of Service</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Misc.</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Service detection</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Default Unix Accounts</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>CGI abuses : XSS</FamilyName>
+				<Status>mixed</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Gain root remotely</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>RPC</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Windows : User management</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>General</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Databases</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Peer-To-Peer File Sharing</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>CISCO</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Firewalls</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Backdoors</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>SCADA</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>DNS</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Useless services</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Policy Compliance</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Gain a shell remotely</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Settings</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Port scanners</FamilyName>
+				<Status>mixed</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Netware</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Finger abuses</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>SNMP</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>NIS</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Mandriva Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>VMware ESX Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Brute force attacks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Junos Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Scientific Linux Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Mobile Devices</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Oracle Linux Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Amazon Linux Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Palo Alto Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Huawei Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>F5 Networks Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>OracleVM Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Incident Response</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Virtuozzo Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>PhotonOS Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>NewStart CGSL Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Rocky Linux Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Alma Linux Local Security Checks</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+			<FamilyItem>
+				<FamilyName>Tenable.ot</FamilyName>
+				<Status>disabled</Status>
+			</FamilyItem>
+		</FamilySelection>
+		<IndividualPluginSelection>
+			<PluginItem>
+				<PluginId>34220</PluginId>
+				<PluginName>Netstat Portscanner (WMI)</PluginName>
+				<Family>Port scanners</Family>
+				<Status>enabled</Status>
+			</PluginItem>
+			<PluginItem>
+				<PluginId>14272</PluginId>
+				<PluginName>Netstat Portscanner (SSH)</PluginName>
+				<Family>Port scanners</Family>
+				<Status>enabled</Status>
+			</PluginItem>
+		<PluginItem><PluginId>57889</PluginId><PluginName>Oracle Fusion WebLogic Server Component WLS-Console Management Interface Unspecified XSS</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>129297</PluginId><PluginName>Atlassian JIRA 7.7.x &lt; 7.13.1 XSS vulnerability (JRASERVER-69238)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>132693</PluginId><PluginName>Atlassian JIRA &lt; 7.4.2 XSS vulnerability (JRASERVER-66624)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>132728</PluginId><PluginName>Atlassian JIRA &lt; 7.13.3 / 8.x &lt; 8.1 XSS vulnerability (JRASERVER-68855)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>139796</PluginId><PluginName>Atlassian Jira 7.6.x &lt; 8.5.4, 8.6.x &lt; 8.7.1 Stored XSS (JRASERVER-70814)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>162763</PluginId><PluginName>Atlassian Jira &lt; 8.20.3 / 8.21.0 XSS (JRASERVER-73069)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>162778</PluginId><PluginName>Atlassian Jira &lt; 8.13.12 / 8.14.x &lt; 8.20.2 / 8.21.0 XSS (JRASERVER-72939)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>162779</PluginId><PluginName>Atlassian Jira &lt; 8.13.15 / 8.14.x &lt; 8.20.3 / 8.21.0 XSS (JRASERVER-73068)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>163306</PluginId><PluginName>Atlassian Jira &lt; 8.13.22 / 8.14.x &lt; 8.20.10 XSS (JRASERVER-73897)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem><PluginItem><PluginId>163432</PluginId><PluginName>Atlassian Jira &lt; 8.13.22 / 8.20.x &lt; 8.20.10 / 8.22.x &lt; 8.22.4 / 9.0.0 XSS (JRASERVER-73897)</PluginName><Family>CGI abuses : XSS</Family><Status>enabled</Status></PluginItem></IndividualPluginSelection>
+	</Policy>
+</NessusClientData_v2>
