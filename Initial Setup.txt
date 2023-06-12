@@ -1,0 +1,40 @@
+# 1. Create Repo
+
+- Github > Repositories > New > Enter a repository name > Create repository
+- Quick setup > Copy and save the repo HTTPS or SSH address
+
+
+# 2. Create Token
+
+- Profile > Settings > Developer settings > Personal access tokens > Tokens (classic) > Generate new toekn (classic)
+- Re-enter password > Enter a token name > Set expiration > Select scopes: repo > Generate token
+- Copy and save the token key separately
+
+
+# 3. Initial Setup
+
+- Set up a username and email
+  $ git config --global user.name "name"
+  $ git config --global user.email "example@email.com"
+  $ git config --list
+
+- Create a working directory and move to it
+
+- Importing a remote repository
+  $ git clone <repo HTTPS address>
+    ex) git clone https://github.com/yangjh0130/test.git
+  $ git init
+
+- Add file
+  > Create file (test.txt)
+  $ git add test.txt
+  $ git status
+
+- Save to local repo
+  $ git commit -m <message>
+    > Enter a commit message 
+
+- Save to remote repo
+  $ git remote add origin <repo HTTPS address>
+  $ git remote -v
+  $ git push -u origin main
