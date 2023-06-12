@@ -43,3 +43,5 @@
 - Importing locally from remote repo
   $ git pull origin main
     > $ git pull
+
+- VSCode
